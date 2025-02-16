@@ -8,9 +8,10 @@ use Rector\Set\ValueObject\SetList;
 return static function (RectorConfig $rectorConfig): void {
     // Specify the directories you want Rector to process.
     $rectorConfig->paths([
-        __DIR__ . '/app',
-        __DIR__ . '/database',
-        __DIR__ . '/routes',
+        __DIR__.'/app',
+        __DIR__.'/database',
+        __DIR__.'/routes',
+        __DIR__.'/tests',
     ]);
 
     // Apply sets of rules.
